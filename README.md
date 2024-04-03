@@ -15,5 +15,5 @@ How to use:
 
 I am planning to keep this repo updated for every new release of the ML4W dotfiles, or as long its not implemented in the dotfiles by Stephan.
 
-Hope you like it, and please read through the scripts so you are aware of what changes the script does. 
+Hope you like it, and please read through the scripts so you are aware of what changes the scripts does. 
 
