@@ -6,7 +6,7 @@ This scripts integrates the wallpaper completely for hyprland and qtile.
 1. Logging out of hyprland sets sddm login screen to currently selected wallpaper.
 2. Changing wallpaper in qtile sets sddm login screen to currently selected wallpaper.
 3. Shutdown or rebooting from hyprland or qtile sets ssdm login screen to currently selected wallpaper.
-4. Install an alternative hyprlock.conf. If you play music (f.ex spotify) the artist and track is displayed on the lockscreen below the clock and passwordfield.
+4. Install an alternative hyprlock.conf with required fonts. If you play music (f.ex spotify) the artist and track is displayed on the lockscreen below the clock and passwordfield.
 The script is in 4 stages so all 4 could be installed individually.
 
 How to use:
