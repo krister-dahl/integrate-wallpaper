@@ -13,7 +13,7 @@ How to use:
 1. Run integrate-wallpaper.sh (all files changed by the script is backed up).
 2. If you want to restore the changes run uninstall.sh and all files backed up will be restored and all new added files will be removed.
 
-I am planning to keep this repo updated for every new release of the ML4W dotfiles, or as long its not implemented in the dotfiles by Stephan.
+I am planning to keep this updated for every update Stephan does on the files I changed, or as long its not implemented in the dotfiles by Stephan.
 
 Hope you like it, and please read through the scripts so you are aware of what changes the scripts does. 
 
