@@ -13,7 +13,11 @@ How to use:
 1. Run integrate-wallpaper.sh (all files changed by the script is backed up).
 2. If you want to restore the changes run uninstall.sh and all files backed up will be restored and all new added files will be removed.
 
-I am planning to keep this updated for every update Stephan does on the files I changed, or as long its not implemented in the dotfiles by Stephan.
-
-Hope you like it, and please read through the scripts so you are aware of what changes the scripts does. 
-
+The script in detail 
+1. Sets your username to the installfiles that requures it.
+2. Backups your existing dotfiles/hypr/scripts/exit.sh to exit.sh.backup
+3. Copy the prepared exit.sh to dotfiles/hypr/scripts/exit.sh
+4. Backups your existing dotfiles/qtile/scripts/wallpaper.sh to wallpaper.sh.backup
+5. copy the prepared wallpaper.sh to dotfiles/qtile/scripts/wallpaper.sh
+6. copy the prepared updatesddm.sh to dotfiles/sddm
+7. copy the servicefile setsddmwall.service to /etc/systemd/system and enables it.
