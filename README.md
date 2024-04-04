@@ -13,11 +13,18 @@ How to use:
 1. Run integrate-wallpaper.sh (all files changed by the script is backed up).
 2. If you want to restore the changes run uninstall.sh and all files backed up will be restored and all new added files will be removed.
 
-The script in detail 
+The integrate-wallpaper.sh script in detail 
 1. Sets your username to the installfiles that requures it.
 2. Backups your existing dotfiles/hypr/scripts/exit.sh to exit.sh.backup
 3. Copy the prepared exit.sh to dotfiles/hypr/scripts/exit.sh
 4. Backups your existing dotfiles/qtile/scripts/wallpaper.sh to wallpaper.sh.backup
 5. copy the prepared wallpaper.sh to dotfiles/qtile/scripts/wallpaper.sh
 6. copy the prepared updatesddm.sh to dotfiles/sddm
-7. copy the servicefile setsddmwall.service to /etc/systemd/system and enables it.
+7. Editing the sudoers file so the user can run updatesddm.sh as root without password.
+8. copy the servicefile setsddmwall.service to /etc/systemd/system and enables it.
+9. restores installfiles altered by your username
+10. Backups your existing /dotfiles/hypr/hyprlock.conf to hyprlock.conf.backup
+11. Copy the prepared hyprlock.conf to /dotfiles/hypr/hyprlock.conf
+12. Installs font required by hyprlock.conf
+
+    
