@@ -3,7 +3,7 @@ Wallpaper integration for Stephan Raabes dotfiles
 First of all, credits to Stephan Raabe - ML4W for his hard work on his dotfiles, which inspired me to this little project 🙏
 This scripts integrates the wallpaper completely for hyprland and qtile.
 
-1. Logging out of hyprland sets sddm login screen to currently selected wallpaper.
+1. Logging out of hyprland (exit) sets sddm login screen to currently selected wallpaper.
 2. Changing wallpaper in qtile sets sddm login screen to currently selected wallpaper.
 3. Shutdown or rebooting from hyprland or qtile sets ssdm login screen to currently selected wallpaper.
 4. Install an alternative hyprlock.conf with required fonts. If you play music (f.ex spotify) the artist and track is displayed on the lockscreen below the clock and passwordfield.
