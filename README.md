@@ -14,7 +14,7 @@ How to use:
 2. If you want to restore the changes run uninstall.sh and all files backed up will be restored and all new added files will be removed.
 
 The integrate-wallpaper.sh script in detail 
-1. Sets your username to the installfiles that requures it.
+1. Sets your username to the installfiles that requires it.
 2. Backups your existing dotfiles/hypr/scripts/exit.sh to exit.sh.backup
 3. Copy the prepared exit.sh to dotfiles/hypr/scripts/exit.sh
 4. Backups your existing dotfiles/qtile/scripts/wallpaper.sh to wallpaper.sh.backup
