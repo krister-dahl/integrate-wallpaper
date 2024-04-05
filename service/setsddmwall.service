@@ -1,0 +1,12 @@
+[Unit]
+Description=Set sddm background to current wallpaper
+DefaultDependencies=no
+Before=poweroff.target reboot.target halt.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/USER/dotfiles/sddm/updatesddm.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=poweroff.target reboot.target halt.target 
