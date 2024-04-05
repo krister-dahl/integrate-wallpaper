@@ -1,6 +1,6 @@
 # integrate-wallpaper
 Wallpaper integration for Stephan Raabes dotfiles
-First of all, credits to Stephan Raabe - ML4W for his hard work on his dotfiles 🙏
+First of all, credits to Stephan Raabe - ML4W for his hard work on his dotfiles, which inspired me to this little project 🙏
 This scripts integrates the wallpaper completely for hyprland and qtile.
 
 1. Logging out of hyprland sets sddm login screen to currently selected wallpaper.
